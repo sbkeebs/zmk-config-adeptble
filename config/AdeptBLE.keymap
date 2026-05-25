@@ -6,7 +6,7 @@
 
 // #include <dt-bindings/zmk/mouse.h>
 
-#define BACK LG(LBKT)
+#define BACK LC(LBKT)
 #define FWD  LG(RBKT)
 
 #define UNDO_    &kp LG(Z)
@@ -93,7 +93,7 @@
     default_layer {
       display-name = "Default";
       bindings = <
-        &ltm BLTH BACK  &ltm DEVICE FWD   &mkp MCLK     &mto SCRLM SNIPE
+        &ltm BLTH K_BACK  &ltm DEVICE K_FORWARD   &mkp MCLK     &mto SCRLM SNIPE
         &mkp LCLK                                       &mkp RCLK
       >;
     };
