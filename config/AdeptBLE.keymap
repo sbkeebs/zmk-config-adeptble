@@ -93,7 +93,7 @@
     default_layer {
       display-name = "Default";
       bindings = <
-        &ltm BLTH K_BACK  &ltm DEVICE K_FORWARD   &mkp MCLK     &mto SCRLM SNIPE
+        &ltm BLTH K_BACK  &ltm DEVICE K_FORWARD   &mkp MCLK     &mto SCRLM SCRLH
         &mkp LCLK                                       &mkp RCLK
       >;
     };
